@@ -149,7 +149,7 @@ kubectl version --short --client
 	$ cat .kube/config 
 
 2) Execute below commands in Jenkins Server and paste kube config file  <br/>
-	$ cd /var/lib/jenkins <br/>
+	$ cd /var/lib/jenkins <br/>   new and updated create .kube in root and config inside this and k8s config element
 	$ sudo mkdir .kube  <br/>
 	$ sudo vi .kube/config  <br/>
 
